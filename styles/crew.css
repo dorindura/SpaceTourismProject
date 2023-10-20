@@ -1,0 +1,493 @@
+:root {
+    --white: #fff;
+    --light-purple: #d0d6f9;
+    --light-black: #0b0d17;
+  }
+  
+  .nav-atributes {
+    display: flex;
+    flex-direction: row;
+    margin-left: 55px;
+    width: 1385px;
+    height: 96px;
+  }
+  
+  #atributes-shared-logo {
+    width: 48px;
+    height: 48px;
+    margin-top: 64px;
+  }
+  
+  #rectangle-atributes {
+    width: 473px;
+    height: 1px;
+    opacity: 0.2515;
+    background: var(--white);
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 88px;
+    margin-left: 64px;
+    overflow: visible;
+  }
+  
+  body {
+    background: url("/assets/crew/background-crew-desktop.jpg"), lightgray 0px 0px / 100% 100% no-repeat;
+    /* background-image: url("/assets/shared/Bitmap.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--light-black);
+    /* opacity: 0.2474; */
+    width: 1440px;
+    height: 1000px;
+    margin: 0;
+  }
+  
+  .mobile-nav-toggle {
+    display: none;
+  }
+
+  #atributes-nav-links {
+    display: flex;
+    flex-direction: row;
+    width: 830px;
+    height: 96px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.774227142333984px);
+    margin-top: 40px;
+    margin-left: -25px;
+    overflow: visible;
+  }
+  
+  .margin-right-lis {
+    text-transform: uppercase;
+  }
+
+  #margin-left-first-link {
+    display: flex;
+    align-items: center;
+    margin-left: 103px;
+    letter-spacing: 2.7px;
+    line-height: normal;
+    height: 19px;
+    width: 70px;
+    text-decoration: none;
+    color: var(--white);
+    gap: 14px;
+    border: none;
+  }
+  
+  #margin-second-link {
+    display: flex;
+    width: 130px;
+    height: 19px;
+    padding-right: 0px;
+    align-items: center;
+    gap: 14px;
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    text-decoration: none;
+    color: var(--white);
+    border: none;
+  }
+  
+  #margin-third-link {
+    display: flex;
+    height: 19px;
+    width: 71px;
+    align-items: center;
+    gap: 12px;
+    font-size: 1em;
+    color: var(--white);
+    text-decoration: none;
+    letter-spacing: 2.7px;
+    border: none;
+  }
+  
+  #margin-fourth-link {
+    display: flex;
+    height: 19px;
+    align-items: center;
+    gap: 12px;
+    font-size: 1em;
+    font-style: normal;
+    color: var(--white);
+    text-decoration: none;
+    letter-spacing: 2.7px;
+    width: 127px;
+    border: none;
+  }
+  
+  .margin-right-lis{
+    margin-right: 70px;
+    list-style: none;
+    margin-top: 39px;
+  }
+
+/* Here we have left-div */
+
+  .flex-row-crew {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .margin-left-from-leftp {
+    margin-left: 165px;
+    margin-top: 130px;
+    width: 518px;
+  }
+
+  #h5-crew-hidden-for-desktop {
+    display: none;
+  }
+
+  #h5-crew {
+    color: var(--white);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725;
+    text-transform: uppercase;
+  }
+
+  #number-h5-crew {
+    color: var(--white);
+    opacity: 0.25;
+    font-weight: 700;
+  }
+
+  .atributes-fdiv-left {
+    width: 286px;
+    height: 34px;
+    gap: 24px;
+    padding-right: 0px;
+  }
+
+  #commander-crew {
+    color: var(--white);
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    opacity: 0.5042;
+    margin-top: 154px;
+  }
+
+  .margin-top-second-div-crew {
+    margin-top: 154px;
+  }
+
+  #h1-left-div {
+    color: var(--white);
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  #paragraph-left-div-crew {
+    width: 432px;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 32px;
+    font-weight: 400;
+    color: var(--light-purple);
+  }
+
+  #crew-members-photos {
+    width: 556px;
+    height: 712px;
+    margin-top: 132px;
+    margin-left: 82px;
+  }
+
+  .frow-crew-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 132px;
+    height: 15px;
+    gap: 12px;
+    margin-top: 120px;
+  }  
+
+  #first-button-crew {
+    border-radius: 7.5px;
+    background-color: var(--light-black);
+    cursor: pointer;
+  }
+
+  #second-button-crew {
+    border-radius: 7.5px;
+    background-color: var(--light-black);
+    cursor: pointer;
+  }
+
+  #third-button-crew {
+    border-radius: 7.5px;
+    background-color: var(--light-black);
+    cursor: pointer;
+  }
+
+  #fourth-button-crew {
+    border-radius: 7.5px;
+    background-color: var(--light-black);
+    cursor: pointer;
+  }
+
+  #delete-in-tablet {
+    border: none;
+  }
+
+  ul :hover {
+    border-bottom: 3px solid #fff;
+  }
+
+  @media screen and (max-width: 992px) {
+    body {
+      background: url("/assets/crew/background-crew-tablet.jpg"), lightgray 0px 0px / 100% 100% no-repeat;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: var(--light-black);
+      width: 768px;
+      height: 1024px;
+      margin: 0;
+    }
+
+    #delete-in-tablet {
+      display: none;
+    }
+
+    #rectangle-atributes {
+      display: none;
+    }
+
+    .margin-right-lis {
+      text-transform: uppercase;
+    }
+
+    #atributes-nav-links {
+      width: 450px;
+      height: 96px;
+      margin-left: 0;
+    }
+
+    .nav-atributes {
+      display: flex;
+      flex-direction: row;
+      max-width: 768px;
+      justify-content: space-between;
+    }
+
+    #margin-left-first-link {
+      margin-left: 0px;
+      width: 50px;
+    }
+
+    .margin-right-lis {
+      margin-right: 17px;
+    }
+
+    #margin-third-link {
+      width: 50px;
+    }
+
+    .dflex-row-direction {
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+    }
+
+    .flex-row-crew {
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+    }
+    
+    .margin-left-from-leftp {
+      width: 100vw;
+      margin-left: auto;
+      margin-top: 10px;
+    }
+
+    #h5-crew {
+      justify-content: flex-start;
+      margin-left: 38px;
+      width: 204px;
+      font-size: 20px;
+    }
+
+    #commander-crew {
+      display: flex;
+      justify-content: center;
+      margin-top: 0px;
+    }
+
+    #h1-left-div {
+      display: flex;
+      justify-content: center;
+    }
+
+    #paragraph-left-div-crew {
+      width: 498px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: auto;
+    }
+
+    .frow-crew-buttons {
+      justify-content: center;
+      margin: auto;
+      margin-top: 40px;
+    }
+
+    .margin-top-second-div-crew {
+      margin-top: 60px;
+    }
+
+    #crew-members-photos {
+      width: 456px;
+      height: 572px;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 280px){
+  body {
+    background-image: url("/assets/crew/background-crew-mobile.jpg"), lightgray 0px 0px / 100% 100% no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--light-black);
+    width: 327px;
+    height: 850px;
+    margin: 0;
+  }
+
+  #atributes-shared-logo {
+    margin-top: 44px;
+  }
+
+  .nav-atributes {
+    width: 375px;
+  }
+
+  #atributes-nav-links {
+    position: fixed;
+    z-index: 1000;
+    inset: 0 0 0 30%;
+    flex-direction: column;
+    padding: min(30vh, 10rem) 2em;
+    background-color: hsl(0, 0%, 100%, 0.1);
+    backdrop-filter: blur(1rem);
+    margin: 0px;
+    height: 100vh;
+    transform: translateX(100%);
+  }
+
+  #atributes-nav-links[data-visible="true"] {
+    transform: translateX(0%);
+  }
+
+  #margin-left-first-link {
+    margin-left: 0px;
+  }
+
+  #delete-in-tablet {
+    display: block;
+  }
+
+  .mobile-nav-toggle {
+    position: fixed;
+    z-index: 9999;
+    background: url("/assets/shared/icon-hamburger.svg");
+    background-repeat: no-repeat;
+    border: 0;
+    cursor: pointer;
+    width: 24px;
+    height: 21px;
+    aspect-ratio: 1;
+    top: 2rem;
+    right: 2rem;
+    display: block;
+  }
+
+  .flex-row-crew {
+    flex-direction: column-reverse;
+  }
+
+  .margin-left-from-leftp {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 0;
+  }
+
+  #h5-crew-hidden-for-desktop {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 2.7px;
+  }
+
+  #h5-crew {
+    display: none;
+  }
+
+  #crew-members-photos {
+    width: 177px;
+    height: 222px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .margin-top-second-div-crew {
+    margin-top: 40px;
+  }
+
+  #commander-crew {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  #h1-left-div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  #paragraph-left-div-crew {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 25px;
+    width: 327px;
+  }
+}  
